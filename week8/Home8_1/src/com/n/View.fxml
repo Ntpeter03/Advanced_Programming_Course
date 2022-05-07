@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="673.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.n.Controller">
+   <children>
+      <TextField fx:id="fName" layoutX="151.0" layoutY="47.0" prefHeight="25.0" prefWidth="138.0" promptText="FirstName" />
+      <TextField fx:id="faName" layoutX="151.0" layoutY="110.0" prefHeight="25.0" prefWidth="338.0" promptText="Father Name" />
+      <TextField fx:id="nCode" layoutX="151.0" layoutY="176.0" prefHeight="25.0" prefWidth="338.0" promptText="National Code" />
+      <TextField fx:id="lName" layoutX="351.0" layoutY="47.0" prefHeight="25.0" prefWidth="138.0" promptText="LastName" />
+      <TextField fx:id="sName" layoutX="151.0" layoutY="320.0" prefHeight="25.0" prefWidth="338.0" promptText="Spouse Name" />
+      <Label layoutX="151.0" layoutY="245.0" prefHeight="25.0" prefWidth="138.0" text="Marital Status" />
+      <ChoiceBox fx:id="mChoiceBox" layoutX="339.0" layoutY="245.0" prefWidth="150.0" />
+      <TextField fx:id="fieldOfStudy" layoutX="151.0" layoutY="400.0" prefHeight="25.0" prefWidth="338.0" promptText="Field of Study" />
+      <TextField fx:id="university" layoutX="151.0" layoutY="475.0" prefHeight="25.0" prefWidth="338.0" promptText="University" />
+      <TextField fx:id="address" layoutX="151.0" layoutY="549.0" prefHeight="25.0" prefWidth="338.0" promptText="Address" />
+      <Button fx:id="button" layoutX="281.0" layoutY="625.0" mnemonicParsing="false" onAction="#buttonAction" text="Add" />
+   </children>
+</AnchorPane>
